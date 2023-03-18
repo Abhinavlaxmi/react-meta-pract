@@ -1,6 +1,7 @@
 import './App.css';
+import Root from './components/Context API 2/Main';
 // import Calculator from './components/Calculator/Calculator';
-import Registration from './components/Forms/Create-account/Registration';
+// import Registration from './components/Forms/Create-account/Registration';
 // import Counter from './components/ContextAPI/Counter';
 // import MealsList from './components/ContextAPI/MealsList';
 // import Provider from './components/ContextAPI/Provider';
@@ -15,7 +16,8 @@ function App() {
       </Provider> */}
       {/* <Reducer /> */}
       {/* <Calculator /> */}
-      <Registration />
+      {/* <Registration /> */}
+      <Root />
     </div>
   );
 }
